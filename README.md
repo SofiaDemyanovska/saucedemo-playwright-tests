@@ -9,10 +9,13 @@
 loginPage.js # POM клас для логін-форми
 
 /tests
+
 login-positive.spec.js # позитивні сценарії
+
 login-negative.spec.js # негативні сценарії
 
 playwright.config.js # конфіг Playwright
+
 package.json # npm-скрипти
 
 ## 🚀 Функціонал, що покривається
