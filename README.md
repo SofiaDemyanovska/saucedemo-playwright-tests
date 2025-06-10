@@ -53,6 +53,7 @@ npm run test:report
 * Username: standard_user 
 * Password: secret_sauce
 
-📌 Авторка
+
+## 📌 Авторка
 Софія Демʼяновська — QA Lead / Senior General QA
 
