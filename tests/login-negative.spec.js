@@ -6,7 +6,7 @@ test('невдалий логін: порожнє поле логіну + вал
   const loginPage = new LoginPage(page);
   const errorMsg = page.locator(`[data-test="error"]`);
 
-  await page.goto('https://www.saucedemo.com/');
+  //await page.goto('https://www.saucedemo.com/');
   await loginPage.fillForm('', 'secret_sauce');
   await loginPage.submitForm();
   //await expect(errorMsg).toHaveText(/Username is required/);
