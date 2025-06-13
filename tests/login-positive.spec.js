@@ -35,6 +35,7 @@ test('немає помилки після валідного логіну', asy
   await loginPage.submitForm();
 
   await expect(loginPage.errorMessage).toHaveCount(0); 
+});
 
 test('кнопка "Add to cart" зʼявляється після логіну', async () => {
   await loginPage.fillForm('standard_user', 'secret_sauce');
