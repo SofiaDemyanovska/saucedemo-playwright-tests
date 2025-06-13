@@ -11,8 +11,8 @@ export default defineConfig({
     trace: 'retain-on-failure',
   },
   projects: [
-    { name: 'chromium', use: { ...devices['Desktop Chrome'] } },
-    { name: 'firefox', use: { ...devices['Desktop Firefox'] } },
-    { name: 'webkit', use: { ...devices['Desktop Safari'] } },
+      { name: 'chromium', use: { browserName: 'chromium' } },
+      { name: 'firefox', use: { browserName: 'firefox' } },
+      { name: 'webkit', use: { browserName: 'webkit' } },
   ],
 });
